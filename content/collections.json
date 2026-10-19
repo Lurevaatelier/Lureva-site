@@ -1,0 +1,390 @@
+{
+  "collections": [
+    {
+      "name": "Légat",
+      "description_en": "A mark worth inheriting. Légat gives the Lureva monogram a life of its own, a signature still speaking long after you have left the room.",
+      "description_ar": "علامة تستحق أن تُورَّث. يمنح Légat مونوغرام لوريفا حياةً خاصة، توقيعًا يواصل الحديث بعد أن تغادري الغرفة.",
+      "pieces": [
+        {
+          "name_en": "Légat Necklace",
+          "name_ar": "قلادة Légat",
+          "images": [
+            {
+              "image": "assets/legat-necklace-chest.webp",
+              "alt_en": "Légat Necklace, the Lureva monogram pendant in yellow gold with a small diamond, worn",
+              "alt_ar": "قلادة Légat، تعليقة مونوغرام لوريفا من الذهب الأصفر مع ألماسة صغيرة"
+            },
+            {
+              "image": "assets/legat-necklace-box.webp",
+              "alt_en": "Légat Necklace in a pink Lureva gift box",
+              "alt_ar": "قلادة Légat داخل علبة لوريفا الوردية"
+            },
+            {
+              "image": "assets/legat-necklace-party.webp",
+              "alt_en": "Légat Necklace and earrings worn for an evening out",
+              "alt_ar": "قلادة وأقراط Légat في سهرة"
+            }
+          ]
+        },
+        {
+          "name_en": "Légat Chain Bracelet",
+          "name_ar": "سوار سلسلة Légat",
+          "images": [
+            {
+              "image": "assets/legat-bracelet.webp",
+              "alt_en": "Légat Chain Bracelet in yellow gold with the monogram charm, worn on the wrist",
+              "alt_ar": "سوار سلسلة Légat من الذهب الأصفر مع المونوغرام، على المعصم"
+            }
+          ]
+        },
+        {
+          "name_en": "Légat Bangle – Gold",
+          "name_ar": "سوار Légat – ذهب",
+          "images": [
+            {
+              "image": "assets/legat-bangle-gold.webp",
+              "alt_en": "Légat Bangle in polished yellow gold with the monogram and a small diamond",
+              "alt_ar": "سوار Légat من الذهب الأصفر اللامع مع المونوغرام وألماسة صغيرة"
+            }
+          ]
+        },
+        {
+          "name_en": "Légat Bangle – Diamond",
+          "name_ar": "سوار Légat – ألماس",
+          "images": [
+            {
+              "image": "assets/legat-bangle-diamond.webp",
+              "alt_en": "Légat Bangle in yellow gold with two bars of diamonds",
+              "alt_ar": "سوار Légat من الذهب الأصفر مع شريطين من الألماس"
+            }
+          ]
+        },
+        {
+          "name_en": "Légat Slim Bangle – Diamond",
+          "name_ar": "سوار Légat رفيع – ألماس",
+          "images": [
+            {
+              "image": "assets/legat-bangle-slim.webp",
+              "alt_en": "Légat Slim Bangle in yellow gold with a diamond-set monogram",
+              "alt_ar": "سوار Légat الرفيع من الذهب الأصفر مع مونوغرام مرصّع بالألماس"
+            }
+          ]
+        },
+        {
+          "name_en": "Légat Bangle – Ruby",
+          "name_ar": "سوار Légat – ياقوت",
+          "images": [
+            {
+              "image": "assets/legat-bangle-ruby.webp",
+              "alt_en": "Légat Bangle in rose gold with two bars of rubies",
+              "alt_ar": "سوار Légat من الذهب الوردي مع شريطين من الياقوت الأحمر"
+            }
+          ]
+        },
+        {
+          "name_en": "Légat Ring",
+          "name_ar": "خاتم Légat",
+          "images": [
+            {
+              "image": "assets/legat-ring-hand.webp",
+              "alt_en": "Légat Ring, the monogram set with diamonds, worn on the hand",
+              "alt_ar": "خاتم Légat، المونوغرام مرصّع بالألماس، على اليد"
+            },
+            {
+              "image": "assets/legat-ring-box.webp",
+              "alt_en": "Légat Ring in a black Lureva gift box",
+              "alt_ar": "خاتم Légat داخل علبة لوريفا السوداء"
+            }
+          ]
+        },
+        {
+          "name_en": "Légat Stud Earrings",
+          "name_ar": "أقراط Légat",
+          "images": [
+            {
+              "image": "assets/legat-studs-pair.webp",
+              "alt_en": "Légat Stud Earrings in yellow gold on pink silk",
+              "alt_ar": "أقراط Légat من الذهب الأصفر على الحرير الوردي"
+            },
+            {
+              "image": "assets/legat-studs-ear.webp",
+              "alt_en": "Légat Stud Earrings worn together, large and small",
+              "alt_ar": "أقراط Légat تُرتدى معًا بحجمين كبير وصغير"
+            }
+          ]
+        },
+        {
+          "name_en": "Légat Fan Necklace",
+          "name_ar": "قلادة المروحة Légat",
+          "images": [
+            {
+              "image": "assets/legat-fan-necklace.webp",
+              "alt_en": "Légat Fan Necklace in yellow gold with diamonds, worn",
+              "alt_ar": "قلادة المروحة Légat من الذهب الأصفر والألماس"
+            },
+            {
+              "image": "assets/legat-fan-necklace-box.webp",
+              "alt_en": "Légat Fan Necklace in a pink Lureva gift box",
+              "alt_ar": "قلادة المروحة Légat داخل علبة لوريفا الوردية"
+            }
+          ]
+        },
+        {
+          "name_en": "Légat Fan Earrings",
+          "name_ar": "أقراط المروحة Légat",
+          "images": [
+            {
+              "image": "assets/legat-fan-earring.webp",
+              "alt_en": "Légat Fan Earring in yellow gold with diamonds, close-up",
+              "alt_ar": "قرط المروحة Légat من الذهب الأصفر والألماس، لقطة مقرّبة"
+            },
+            {
+              "image": "assets/legat-fan-set.webp",
+              "alt_en": "Légat Fan Earrings and necklace worn together",
+              "alt_ar": "أقراط وقلادة المروحة Légat معًا"
+            }
+          ]
+        },
+        {
+          "name_en": "Légat Charm Earring",
+          "name_ar": "قرط Légat بدلايات",
+          "images": [
+            {
+              "image": "assets/legat-charm.webp",
+              "alt_en": "Légat Charm Earring with a fan, a swirl and the monogram hanging from one hook",
+              "alt_ar": "قرط Légat بثلاث دلايات: مروحة ودوّامة والمونوغرام، معلّقة بخطاف واحد"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Confetti Bloom",
+      "description_en": "Fine jewelry that knows how to celebrate. A garden of colors, chosen by you and entirely yours, because luxury is allowed to have fun.",
+      "description_ar": "مجوهرات راقية تعرف كيف تحتفل. حديقة من الألوان تختارينها وتكون لكِ وحدكِ، فالفخامة يحق لها أن تمرح.",
+      "pieces": [
+        {
+          "name_en": "Elysia Prism",
+          "name_ar": "إليزيا بريزم",
+          "images": [
+            {
+              "image": "assets/bloom-prism.webp",
+              "alt_en": "Elysia Prism pendant, a rose gold geometric frame with a ruby, a sapphire and a pink sapphire",
+              "alt_ar": "قلادة إليزيا بريزم، إطار هندسي من الذهب الوردي مع ياقوتة حمراء وياقوتة زرقاء وياقوتة وردية"
+            }
+          ]
+        },
+        {
+          "name_en": "Confetti Bloom Ring",
+          "name_ar": "خاتم كونفيتي بلوم",
+          "images": [
+            {
+              "image": "assets/bloom-ring-hand.webp",
+              "alt_en": "Confetti Bloom Ring, a cluster of colored gemstones, worn on the hand",
+              "alt_ar": "خاتم كونفيتي بلوم، تشكيلة من الأحجار الملونة، على اليد"
+            },
+            {
+              "image": "assets/bloom-ring-box.webp",
+              "alt_en": "Confetti Bloom Ring in a pink Lureva gift box",
+              "alt_ar": "خاتم كونفيتي بلوم داخل علبة لوريفا الوردية"
+            },
+            {
+              "image": "assets/bloom-ring-cutout.webp",
+              "alt_en": "Confetti Bloom Ring in rose gold on an ivory background",
+              "alt_ar": "خاتم كونفيتي بلوم من الذهب الوردي على خلفية عاجية"
+            }
+          ]
+        },
+        {
+          "name_en": "Confetti Bloom Necklace",
+          "name_ar": "قلادة كونفيتي بلوم",
+          "images": [
+            {
+              "image": "assets/bloom-necklace.webp",
+              "alt_en": "Confetti Bloom Necklace with a cluster of colored gemstones",
+              "alt_ar": "قلادة كونفيتي بلوم بتشكيلة من الأحجار الملونة"
+            }
+          ]
+        },
+        {
+          "name_en": "Confetti Bloom Bracelet",
+          "name_ar": "سوار كونفيتي بلوم",
+          "images": [
+            {
+              "image": "assets/bloom-bracelet.webp",
+              "alt_en": "Confetti Bloom Bracelet with a cluster of colored gemstones on a rose gold chain",
+              "alt_ar": "سوار كونفيتي بلوم بتشكيلة من الأحجار الملونة على سلسلة من الذهب الوردي"
+            }
+          ]
+        },
+        {
+          "name_en": "Confetti Bloom Ear Climber",
+          "name_ar": "قرط كونفيتي بلوم",
+          "images": [
+            {
+              "image": "assets/bloom-earclimber.webp",
+              "alt_en": "Confetti Bloom Ear Climber with a cluster of colored gemstones",
+              "alt_ar": "قرط كونفيتي بلوم بتشكيلة من الأحجار الملونة"
+            }
+          ]
+        },
+        {
+          "name_en": "Confetti Wave",
+          "name_ar": "كونفيتي ويف",
+          "images": [
+            {
+              "image": "assets/bloom-wave.webp",
+              "alt_en": "Confetti Wave, a twisted yellow gold ring set with small colored gemstones",
+              "alt_ar": "كونفيتي ويف، خاتم ملتوٍ من الذهب الأصفر مرصّع بأحجار ملونة صغيرة"
+            }
+          ]
+        },
+        {
+          "name_en": "Confetti Zinnia",
+          "name_ar": "كونفيتي زينيا",
+          "images": [
+            {
+              "image": "assets/bloom-zinnia-wrist.webp",
+              "alt_en": "Confetti Zinnia, an open rose gold bangle with five gemstones, worn on the wrist",
+              "alt_ar": "كونفيتي زينيا، سوار مفتوح من الذهب الوردي مع خمسة أحجار، على المعصم"
+            },
+            {
+              "image": "assets/bloom-zinnia-box.webp",
+              "alt_en": "Confetti Zinnia bangle in a pink Lureva gift box",
+              "alt_ar": "سوار كونفيتي زينيا داخل علبة لوريفا الوردية"
+            }
+          ]
+        },
+        {
+          "name_en": "Triora",
+          "name_ar": "تريورا",
+          "images": [
+            {
+              "image": "assets/bloom-triora-cutout.webp",
+              "alt_en": "Triora, an open ring with a pink, a green and a blue gemstone, each in a diamond halo",
+              "alt_ar": "تريورا، خاتم مفتوح بحجر وردي وأخضر وأزرق، كلٌّ منها محاط بهالة من الألماس"
+            },
+            {
+              "image": "assets/bloom-triora-hand.webp",
+              "alt_en": "Triora ring worn on the hand",
+              "alt_ar": "خاتم تريورا على اليد"
+            }
+          ]
+        },
+        {
+          "name_en": "Wisteria",
+          "name_ar": "ويستيريا",
+          "images": [
+            {
+              "image": "assets/bloom-wisteria-front.webp",
+              "alt_en": "Wisteria, a woven rose gold cuff with scattered colored gemstones",
+              "alt_ar": "ويستيريا، سوار عريض منسوج من الذهب الوردي مع أحجار ملونة متناثرة"
+            },
+            {
+              "image": "assets/bloom-wisteria-wrist.webp",
+              "alt_en": "Wisteria cuff worn on the wrist",
+              "alt_ar": "سوار ويستيريا على المعصم"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lureva Knot",
+      "description_en": "One unbroken knot of gold. Our flagship begins with you and remains forever, made to outlast every trend. At twenty or at eighty, at the grandest gala or on the quietest morning, the Lureva Knot fits every chapter of your life.",
+      "description_ar": "عقدة واحدة متصلة من الذهب. قطعتنا الأبرز تبدأ بكِ وتبقى للأبد، صُنعت لتدوم أطول من كل صيحة. في العشرين أو في الثمانين، في أفخم الحفلات أو في أهدأ الصباحات، تناسب عقدة لوريفا كل فصل من فصول حياتكِ.",
+      "pieces": [
+        {
+          "name_en": "Lureva Knot Ring",
+          "name_ar": "خاتم عقدة لوريفا",
+          "images": [
+            {
+              "image": "assets/knot-ring-catalogue.webp",
+              "alt_en": "Lureva Knot Ring in rose gold on an ivory background",
+              "alt_ar": "خاتم عقدة لوريفا من الذهب الوردي على خلفية عاجية"
+            },
+            {
+              "image": "assets/knot-ring-velvet.webp",
+              "alt_en": "Lureva Knot Ring in rose gold on black velvet",
+              "alt_ar": "خاتم عقدة لوريفا من الذهب الوردي على قطيفة سوداء"
+            },
+            {
+              "image": "assets/knot-ring-cafe.webp",
+              "alt_en": "A woman laughing over coffee with friends, wearing the Lureva Knot Ring",
+              "alt_ar": "امرأة تضحك مع صديقاتها أثناء احتساء القهوة وهي ترتدي خاتم عقدة لوريفا"
+            }
+          ]
+        },
+        {
+          "name_en": "Lureva Knot Earrings",
+          "name_ar": "أقراط عقدة لوريفا",
+          "images": [
+            {
+              "image": "assets/knot-earrings-stand.webp",
+              "alt_en": "Lureva Knot Earrings in rose gold on a black velvet stand",
+              "alt_ar": "أقراط عقدة لوريفا من الذهب الوردي على حامل قطيفة سوداء"
+            },
+            {
+              "image": "assets/knot-earrings-ear.webp",
+              "alt_en": "Lureva Knot Earring worn, close-up",
+              "alt_ar": "قرط عقدة لوريفا على الأذن، لقطة مقرّبة"
+            }
+          ]
+        },
+        {
+          "name_en": "Lureva Knot Necklace",
+          "name_ar": "قلادة عقدة لوريفا",
+          "images": [
+            {
+              "image": "assets/knot-necklace-catalogue.webp",
+              "alt_en": "Lureva Knot Necklace pendant in rose gold on an ivory background",
+              "alt_ar": "قلادة عقدة لوريفا من الذهب الوردي على خلفية عاجية"
+            },
+            {
+              "image": "assets/knot-necklace-box.webp",
+              "alt_en": "Lureva Knot Necklace in a pink gift box",
+              "alt_ar": "قلادة عقدة لوريفا داخل علبة هدايا وردية"
+            },
+            {
+              "image": "assets/knot-necklace-diamonds.webp",
+              "alt_en": "Lureva Knot Necklace set with diamonds on a black bust",
+              "alt_ar": "قلادة عقدة لوريفا مرصّعة بالألماس على تمثال عرض أسود"
+            },
+            {
+              "image": "assets/knot-necklace-sizes.webp",
+              "alt_en": "Lureva Knot Necklace in yellow gold, shown in four sizes",
+              "alt_ar": "قلادة عقدة لوريفا من الذهب الأصفر بأربعة مقاسات"
+            }
+          ]
+        },
+        {
+          "name_en": "Lureva Knot Bangle",
+          "name_ar": "سوار عقدة لوريفا",
+          "images": [
+            {
+              "image": "assets/knot-bangle-wrist.webp",
+              "alt_en": "Lureva Knot Bangle in rose gold worn on the wrist",
+              "alt_ar": "سوار عقدة لوريفا من الذهب الوردي على المعصم"
+            },
+            {
+              "image": "assets/knot-bangle-velvet.webp",
+              "alt_en": "Lureva Knot Bangle in rose gold on a black velvet cushion",
+              "alt_ar": "سوار عقدة لوريفا من الذهب الوردي على وسادة قطيفة سوداء"
+            }
+          ]
+        },
+        {
+          "name_en": "Lureva Knot Liora",
+          "name_ar": "عقدة لوريفا ليورا",
+          "images": [
+            {
+              "image": "assets/knot-liora.webp",
+              "alt_en": "Lureva Knot Liora necklace in rose gold with three small gemstones",
+              "alt_ar": "قلادة عقدة لوريفا ليورا من الذهب الوردي مع ثلاثة أحجار صغيرة"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

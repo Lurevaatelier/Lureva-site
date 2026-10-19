@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lureva Collections</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&family=Noto+Naskh+Arabic:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a href="index.html" aria-label="Lureva"><img src="assets/lureva-wordmark.png" alt="Lureva"></a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="index.html#create" data-i18n="nav_create">Create your piece</a>
+      <a href="index.html#contact" data-i18n="nav_contact">Contact</a>
+      <button class="lang" id="lang" type="button" aria-label="Switch language">العربية</button>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero" style="grid-template-columns: 1fr; padding-block: 56px 40px;">
+      <div>
+        <h1 class="page-h1" data-i18n="coll_title">The collections</h1>
+        <p class="lead" style="margin-bottom: 0" data-i18n="coll_lead">Choose what speaks to you.</p>
+        <p class="sec-lead" style="margin: 14px 0 0; font-size: 0.95rem" data-i18n="coll_note">Every piece is made to order in yellow, rose or white gold.</p>
+      </div>
+    </div>
+
+    <div id="colls" style="padding-block: 8px 64px;"></div>
+
+    <section>
+      <div class="cta-band">
+        <p data-i18n="cta_line">Have something of your own in mind?</p>
+        <a class="btn btn-solid" href="index.html#create" data-i18n="btn_create">Create your piece</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/lureva-wordmark.png" alt="Lureva">
+    <span>&copy; 2026 Lureva</span>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<title>Lureva</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&family=Noto+Naskh+Arabic:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+
+<div class="wrap">
+  <header class="top">
+    <a href="index.html" aria-label="Lureva"><img src="assets/lureva-wordmark.png" alt="Lureva"></a>
+    <nav class="nav" aria-label="Main">
+      <a href="collections.html" data-i18n="nav_collections">Collections</a>
+      <a href="#create" data-i18n="nav_create">Create your piece</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+      <button class="lang" id="lang" type="button" aria-label="Switch language">العربية</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <div class="hero">
+      <div>
+        <p class="eyebrow" data-i18n="eyebrow">Fine jewelry, personal by design</p>
+        <h1 id="headline">Designed to be yours.<br><em>Made to be noticed.</em></h1>
+        <p class="lead" data-i18n="lead">Jewelry is personal, a reflection of who you are. Gold, diamonds and precious stones, masterfully crafted and designed with passion and love, down to the smallest detail.</p>
+        <div class="cta">
+          <a class="btn btn-solid" href="collections.html" data-i18n="btn_explore">Explore the collection</a>
+          <a class="btn btn-line" href="#create" data-i18n="btn_create">Create your piece</a>
+        </div>
+      </div>
+      <div class="hero-logo"><img src="assets/lureva-logo-full.png" alt="Lureva monogram and wordmark"></div>
+    </div>
+
+    <!-- One featured photo and one button. To use a real render, add
+         <img src="images/featured.jpg" alt="..."> inside .feature and remove the note. -->
+    <section id="collections">
+      <h2 class="sr-only" data-i18n="coll_title">The collections</h2>
+      <div class="feature">
+        <img src="assets/home-featured.webp" width="1383" height="1193" decoding="async" data-i18n-alt="altf" alt="A flat lay of Lureva jewelry on pink silk: the LR monogram pieces, a gemstone pendant, a woven cuff and a three-stone ring beside a pink gift box and a black velvet pouch">
+        <a class="btn btn-solid" href="collections.html" data-i18n="btn_explore">Explore the collection</a>
+      </div>
+    </section>
+
+    <section id="create">
+      <h2 data-i18n="create_title">Create your piece</h2>
+      <p class="sec-lead" data-i18n="create_lead">Designed around your individuality, your preferences and your budget.</p>
+
+      <!-- One photo per step. To change a photo, replace its file in the assets folder
+           (stage-1-idea.webp, stage-2-designs.webp, stage-3-piece.webp). -->
+      <div class="stages">
+        <article class="stage">
+          <figure class="stage-media">
+            <img src="assets/stage-1-idea.webp" width="1400" height="933" decoding="async" data-i18n-alt="alt1" alt="A mood board of fabric swatches, gemstone photos and a handwritten card that reads Share your idea or inspiration">
+          </figure>
+          <div class="stage-text">
+            <span class="stage-n" data-i18n="n1">01</span>
+            <h3 data-i18n="s1_title">Share your idea</h3>
+            <p data-i18n="s1_text">Bring an inspiration, a color, a gemstone or simply a feeling, with any photos that speak to you.</p>
+          </div>
+        </article>
+
+        <article class="stage">
+          <figure class="stage-media">
+            <img src="assets/stage-2-designs.webp" width="1400" height="787" decoding="async" data-i18n-alt="alt2" alt="Three watercolor ring sketches on paper: Organic Wave, Double Bezel and Asymmetrical Diamonds">
+          </figure>
+          <div class="stage-text">
+            <span class="stage-n" data-i18n="n2">02</span>
+            <h3 data-i18n="s2_title">Choose from three designs</h3>
+            <p data-i18n="s2_text">After a dedicated design session, we present three designs for you to choose from.</p>
+          </div>
+        </article>
+
+        <article class="stage">
+          <figure class="stage-media portrait">
+            <img src="assets/stage-3-piece.webp" width="900" height="1125" decoding="async" data-i18n-alt="alt3" alt="A gold ring with an oval pink stone and two small diamonds in a pink leather box">
+          </figure>
+          <div class="stage-text">
+            <span class="stage-n" data-i18n="n3">03</span>
+            <h3 data-i18n="s3_title">Refine every detail</h3>
+            <p data-i18n="s3_text">Together we refine your chosen design until every detail feels right.</p>
+          </div>
+        </article>
+      </div>
+
+      <h3 class="form-title" data-i18n="form_title">Start your piece</h3>
+      <form class="form" id="form" novalidate>
+        <div class="field">
+          <label class="label" for="name" data-i18n="f_name">Your name</label>
+          <input class="input" id="name" type="text" autocomplete="name">
+        </div>
+        <div class="field">
+          <label class="label" for="idea" data-i18n="f_idea">Your idea</label>
+          <textarea class="textarea" id="idea" data-i18n-ph="f_idea_ph" placeholder="Describe the piece: metal, stones, occasion, size."></textarea>
+        </div>
+        <div class="field">
+          <span class="label" data-i18n="f_photos">Inspiration photos</span>
+          <div class="files">
+            <input type="file" id="photos" accept="image/*" multiple>
+            <label class="btn btn-line" for="photos" data-i18n="f_choose">Choose photos</label>
+            <span class="file-names" id="fileNames" aria-live="polite" data-i18n="f_none">No photos chosen</span>
+          </div>
+        </div>
+        <div class="send">
+          <button class="btn btn-solid" type="button" data-channel="email" data-i18n="send_email">Send by email</button>
+          <button class="btn btn-line" type="button" data-channel="whatsapp" data-i18n="send_wa">Send via WhatsApp</button>
+        </div>
+        <p class="note" id="note" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2 data-i18n="contact_title">Write to us</h2>
+      <p class="sec-lead" data-i18n="contact_lead">For questions about a piece or a commission.</p>
+      <button class="btn btn-solid" id="msgBtn" type="button" data-i18n="msg_btn">Send us a message</button>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/lureva-wordmark.png" alt="Lureva">
+    <span>&copy; 2026 Lureva</span>
+  </footer>
+</div>
+
+<script src="app.js"></script>

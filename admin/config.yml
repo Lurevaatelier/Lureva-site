@@ -1,0 +1,52 @@
+# Lureva editor settings. Open the editor at yoursite/admin
+backend:
+  name: github
+  repo: Lurevaatelier/lureva-site
+  branch: main
+  # base_url and auth_endpoint are added during the hosting step
+
+media_folder: assets
+public_folder: /assets
+site_url: https://lurevaatelier.com
+display_url: https://lurevaatelier.com
+
+media_library:
+  name: default
+  config:
+    max_file_size: 800000   # keeps photos light so the site stays fast (about 800 KB)
+
+collections:
+  - name: catalogue
+    label: Collections and pieces
+    files:
+      - name: collections
+        label: All collections
+        file: content/collections.json
+        format: json
+        fields:
+          - label: Collections
+            name: collections
+            widget: list
+            label_singular: Collection
+            summary: "{{fields.name}}"
+            fields:
+              - { label: Collection name, name: name, widget: string }
+              - { label: Description (English), name: description_en, widget: text }
+              - { label: Description (Arabic), name: description_ar, widget: text }
+              - label: Pieces
+                name: pieces
+                widget: list
+                label_singular: Piece
+                summary: "{{fields.name_en}}"
+                fields:
+                  - { label: Piece name (English), name: name_en, widget: string }
+                  - { label: Piece name (Arabic), name: name_ar, widget: string }
+                  - label: Photos (the first photo is the main one)
+                    name: images
+                    widget: list
+                    label_singular: Photo
+                    summary: "{{fields.alt_en}}"
+                    fields:
+                      - { label: Photo, name: image, widget: image }
+                      - { label: Describe the photo (English), name: alt_en, widget: string }
+                      - { label: Describe the photo (Arabic), name: alt_ar, widget: string }
